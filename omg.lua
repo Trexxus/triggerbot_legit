@@ -1,6 +1,8 @@
 --not mine
 --made by him https://v3rmillion.net/member.php?action=profile&uid=650927
 
+
+
 getgenv().settings = {
    TeamCheck = false;
    Delay = 0;
@@ -35,3 +37,10 @@ UserInputService.InputEnded:connect(function(key)
        Holding = false
    end
 end)
+
+game.StarterGui:SetCore("SendNotification", {
+		Title = "TriggerBot"; 
+		Text = "TriggerBot is now enabled";
+		Icon = ""; 
+		Duration = 3; 
+   })
