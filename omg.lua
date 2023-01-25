@@ -6,7 +6,7 @@
 getgenv().settings = {
    TeamCheck = false;
    Delay = 0;
-   Keybind = Enum.KeyCode.LeftAlt;
+   Keybind = Enum.KeyCode.X; --x is better for me tbh
    Enabled = true;
 }
 
