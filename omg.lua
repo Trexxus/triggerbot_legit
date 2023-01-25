@@ -4,13 +4,13 @@
 
 
 getgenv().settings = {
-   TeamCheck = false;
+   TeamCheck = true;
    Delay = 0;
    Keybind = Enum.KeyCode.X; --x is better for me tbh
    Enabled = true;
 }
 
-local Holding = false
+local Holding = true
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
